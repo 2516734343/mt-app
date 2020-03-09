@@ -1,0 +1,87 @@
+.like {
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    padding: 16px 20px 0;
+    width: 230px;
+    box-sizing: border-box;
+    h3 {
+      font-size: 16px;
+      color: #333333;
+      line-height: 22px;
+      font-weight: 500;
+    }
+    .recommend-list{
+      &.a{
+        text-decoration: none;
+      }
+    }
+    .recommend-item {
+      margin-bottom: 20px;
+      display: inline-block;
+      width: 190px;
+      .recommend-card-wrapper {
+        width: 100%;
+        box-sizing: border-box;
+        .img-box {
+          height: 0;
+          width: 100%;
+          padding-bottom: 56.25%;
+          background-color: #f4f4f4;
+          background-size: cover;
+          background-position: 50% 50%;
+          border-radius: 4px;
+          overflow: hidden;
+        }
+        .info-box {
+          position: relative;
+          margin-top: 10px;
+          .title {
+            font-size: 14px;
+            color: #222222;
+            line-height: 20px;
+            width: 100%;
+            margin: 0;
+            font-weight: 500;
+          }
+          .comment-number {
+            font-size: 12px;
+            color: #999;
+            height: 24px;
+            line-height: 24px;
+            margin-left: 10px;
+          }
+          .desc{
+            font-size: 12px;
+            color: #999999;
+            width: 100%;
+            height: 18px;
+            line-height: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-top: 4px;
+          }
+          .bottom-line{
+            position: relative;
+            .price-box{
+              color: #ff6600;
+              .yuan{
+                font-size: 14px;
+                font-weight: 700;
+              }
+              .price-number{
+                font-size: 22px;
+              }
+              .price-desc{
+                font-size: 12px;
+                margin-left: 4px;
+                font-weight: 700;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
