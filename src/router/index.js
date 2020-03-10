@@ -12,7 +12,7 @@ import Register from '@/page/register.vue'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   routes: [
     {
       path: '/',

@@ -24,7 +24,7 @@ export default {
   data () {
     return {
       curDetail: null,
-      menuList:[]
+      menuList: []
     }
   },
   created () {
@@ -52,6 +52,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" >
 
 </style>

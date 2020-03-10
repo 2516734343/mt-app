@@ -9,7 +9,7 @@
                     <categroy />
                 </el-row>
                 <el-row>
-                    <list/>
+                    <list />
                 </el-row>
             </el-col>
             <el-col :span="5">
@@ -33,7 +33,7 @@ export default {
   }
 }
 </script>
-<style lang="scss" >
+<style lang="scss">
 @import '@/assets/css/products/index.scss';
 @import '@/assets/css/public/fav.scss';
 @import '@/assets/css/products/list.scss'

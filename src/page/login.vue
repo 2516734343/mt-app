@@ -106,6 +106,6 @@ export default {
   }
 }
 </script>
-<style lang="sass">
+<style lang="sass" >
 @import '@/assets/css/login/index.scss'
 </style>

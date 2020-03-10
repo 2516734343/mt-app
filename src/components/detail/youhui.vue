@@ -19,6 +19,6 @@ export default {
   }
 }
 </script>
-<style lang="sass">
+<style lang="sass" >
 @import '@/assets/css/public/fav.scss'
 </style>
